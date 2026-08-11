@@ -81,11 +81,9 @@ const SEO = props => {
     NOTION_CONFIG
   )
 
-  const SEO_GOOGLE_SITE_VERIFICATION = siteConfig(
-    'SEO_GOOGLE_SITE_VERIFICATION',
-    null,
-    NOTION_CONFIG
-  )
+  const SEO_GOOGLE_SITE_VERIFICATION =
+  process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ||
+  siteConfig('SEO_GOOGLE_SITE_VERIFICATION', null, NOTION_CONFIG)
 
   const BLOG_FAVICON = siteConfig('BLOG_FAVICON', null, NOTION_CONFIG)
 
