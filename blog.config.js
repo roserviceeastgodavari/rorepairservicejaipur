@@ -20,8 +20,16 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
+const BLOG = {
+  API_BASE_URL: process.env.API_BASE_URL || 'https://www.notion.so/api/v3',
+  NOTION_PAGE_ID:
+    process.env.NOTION_PAGE_ID ||
+    'e22c4e51cfac8311bc8f819b2ed64aad',
   SEO_GOOGLE_SITE_VERIFICATION:
-  process.env.SEO_GOOGLE_SITE_VERIFICATION || '',
+    process.env.SEO_GOOGLE_SITE_VERIFICATION || '',
+  THEME: process.env.NEXT_PUBLIC_THEME || 'simple',
+  // ...
+}
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
