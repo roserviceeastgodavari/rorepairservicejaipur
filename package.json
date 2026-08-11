@@ -97,8 +97,8 @@
     "remixicon-react": "^1.0.0"
   },
   "devDependencies": {
-    "@ai-sdk/google": "^4.0.37",
-    "@ai-sdk/vue": "^4.0.56",
+    "@ai-sdk/google": "^4.0.39",
+    "@ai-sdk/vue": "^4.0.58",
     "@lhci/cli": "^0.15.1",
     "@netlify/plugin-nextjs": "^5.15.13",
     "@testing-library/jest-dom": "^6.9.1",
