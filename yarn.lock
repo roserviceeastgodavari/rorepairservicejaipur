@@ -7,48 +7,48 @@
   resolved "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.4.4.tgz"
   integrity sha512-Elp+iwUx5rN5+Y8xLt5/GRoG20WGoDCQ/1Fb+1LiGtvwbDavuSk0jhD/eZdckHAuzcDzccnkv+rEjyWfRx18gg==
 
-"@ai-sdk/gateway@4.0.44":
-  version "4.0.44"
-  resolved "https://registry.yarnpkg.com/@ai-sdk/gateway/-/gateway-4.0.44.tgz#270af041ce95593f611674483c2b6bebd7cf314e"
-  integrity sha512-dQ/AHH1do1iEpWEXdAge37FtpXV17fsj7NkL9w+xuzVgvmI7+dQFeDerul+F2I5czmxe61Lq+TnUREjU92UXYg==
+"@ai-sdk/gateway@4.0.61":
+  version "4.0.61"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/gateway/-/gateway-4.0.61.tgz#b02830c93c7f1dfabd587f73f820aff75f426290"
+  integrity sha512-b+PRdwM9/x0427CKqfd4zpCRgSzQeZsCZ9PtBOaLU2S1l+eRj8++Bwt766VnLerd/F5snKWAq13miV+OPcvclA==
   dependencies:
-    "@ai-sdk/provider" "4.0.6"
-    "@ai-sdk/provider-utils" "5.0.23"
+    "@ai-sdk/provider" "4.0.7"
+    "@ai-sdk/provider-utils" "5.0.28"
     "@vercel/oidc" "3.2.0"
 
-"@ai-sdk/google@^4.0.37":
-  version "4.0.37"
-  resolved "https://registry.yarnpkg.com/@ai-sdk/google/-/google-4.0.37.tgz#743922685ce1433642c0492334ba8bd6ac8c8156"
-  integrity sha512-wtf81hl7lAy/cMREfwxeMRcfGl7WrSiZI5nTEDwHqH/dEWEM8lPQn13s9S97nbQn1DHNeyduljH4huCeILP/bw==
+"@ai-sdk/google@^4.0.49":
+  version "4.0.49"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/google/-/google-4.0.49.tgz#1c749d2a95757181c4c7d7a2dfd2109bef2afb1d"
+  integrity sha512-ZJMehjQNVyvLytV5cUQcTMNEG79NS+p8d2AHu+bH/Mg2M2IQ8Pueh/xQga2v85TX8BGT55m9Q01taY1fZjS4ag==
   dependencies:
-    "@ai-sdk/provider" "4.0.6"
-    "@ai-sdk/provider-utils" "5.0.23"
+    "@ai-sdk/provider" "4.0.7"
+    "@ai-sdk/provider-utils" "5.0.28"
 
-"@ai-sdk/provider-utils@5.0.23":
-  version "5.0.23"
-  resolved "https://registry.yarnpkg.com/@ai-sdk/provider-utils/-/provider-utils-5.0.23.tgz#da3b2e666860d3c3cc14ca6441e3433d4535e9d5"
-  integrity sha512-mFvAAszenK8Xny3v+4Vntke5IcUkyzjss3gTBOxVWNrSIWmt/FhQ5gCgoJXW7IK11cklRaicMPwOXTnnBtaqFQ==
+"@ai-sdk/provider-utils@5.0.28":
+  version "5.0.28"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/provider-utils/-/provider-utils-5.0.28.tgz#7e4b119d59939b26f19301493c8909fe25d981fe"
+  integrity sha512-TnHUyd/rCYQqHg5RuiOaz/hUql6U+kbUaBW0Rp+0N5UhnAInA9CzzV0HXvuAAPwppDsK6fAx9Rd+tRawpJ/3pg==
   dependencies:
-    "@ai-sdk/provider" "4.0.6"
+    "@ai-sdk/provider" "4.0.7"
     "@standard-schema/spec" "^1.1.0"
     "@workflow/serde" "4.1.0"
     eventsource-parser "^3.0.8"
     undici "^7.28.0"
 
-"@ai-sdk/provider@4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@ai-sdk/provider/-/provider-4.0.6.tgz#b7802547701d5192edafeba8f6b32164792cf75e"
-  integrity sha512-YYXjvs8F3q/BdEn9tBDoDuQACotfR7c5foGw/ADsM6iAVC1JabqEjQSkwHv/Kg2vNIr1c2AVHcQb+JYsYk76Qw==
+"@ai-sdk/provider@4.0.7":
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/provider/-/provider-4.0.7.tgz#5c0a2df39b57ca6f63c745dcc9cb0e684a94593d"
+  integrity sha512-6or44XprPzKbr8zkmzosowSE0pxkvJcoojBL+mCZvPUt3kvXp3XSNqeVun9golb1acEfSo6yaEBRT18h2VU+1Q==
   dependencies:
     json-schema "^0.4.0"
 
-"@ai-sdk/vue@^4.0.56":
-  version "4.0.56"
-  resolved "https://registry.yarnpkg.com/@ai-sdk/vue/-/vue-4.0.56.tgz#42162d4e63d0d89d0f355689b745f83f03b9a523"
-  integrity sha512-zaFbFVMkx7jj9gJaTPfQUibJ+H47TCvRATnhvGPagtplVLj+lRjptZ8Bcwt1I1bmh7ios6jQcj32hETeuVBSMg==
+"@ai-sdk/vue@^4.0.76":
+  version "4.0.76"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/vue/-/vue-4.0.76.tgz#ad838151659101f01c9b6d8c026131a9f03303a7"
+  integrity sha512-EyqDq1JqJd1Ozt1mbqzHOFe9B8oCzARmSW4HU5UbX45Z3KBqUdt6hjK7wlsXxydVQ1UdGyO1wY9ytPkGJbDwJA==
   dependencies:
-    "@ai-sdk/provider-utils" "5.0.23"
-    ai "7.0.56"
+    "@ai-sdk/provider-utils" "5.0.28"
+    ai "7.0.76"
     swrv "^1.2.0"
 
 "@algolia/abtesting@1.18.1":
@@ -2151,10 +2151,10 @@
     "@testing-library/dom" "^9.0.0"
     "@types/react-dom" "^18.0.0"
 
-"@testing-library/user-event@^14.6.3":
-  version "14.6.3"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.6.3.tgz#360bd2e2f496ba738dfd59f114368dc479199a7f"
-  integrity sha512-6dBq67jT8lE+JTE8Exm02Kt6ze43hz1jdiSpSJwtTZiT1xQQ6b7nZYTTQ9njdArdU8XklOwaDp/AbT/eYSKF4g==
+"@testing-library/user-event@^14.6.5":
+  version "14.6.5"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.6.5.tgz#175a580580349d4452b6a604001e65833de281f8"
+  integrity sha512-FhqjldLTpteueBaKflhNFlMT3+PM0O5fiBUivht6b9CZ1eesJyy7+g3Jr7XwJzt/Hip3ZG5hWwK1MX1FuDiE4w==
 
 "@tootallnate/once@2":
   version "2.0.1"
@@ -2772,14 +2772,14 @@ agent-base@^7.1.0, agent-base@^7.1.2:
   resolved "https://registry.npmmirror.com/agent-base/-/agent-base-7.1.4.tgz"
   integrity sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==
 
-ai@7.0.56, ai@^7.0.19:
-  version "7.0.56"
-  resolved "https://registry.yarnpkg.com/ai/-/ai-7.0.56.tgz#c1e7e8dcd057c00c6c9259c48909786cd80ccd79"
-  integrity sha512-Lp7q9tZFl/TGOpBBNgt2wZ85SoCvJJVlHQksMkqrgiFUnIGOw+L2FWJ0gXuNEngLQTp9+t32k8QuIB7Jc5uKRA==
+ai@7.0.76, ai@^7.0.19:
+  version "7.0.76"
+  resolved "https://registry.yarnpkg.com/ai/-/ai-7.0.76.tgz#dc693bba1819acdc346f90ff1d68f797e6b91ec8"
+  integrity sha512-Mytm/RFJzwJ0nzXiHYAE3dgNpFG/2K2Tks5alwm+PzAQeB6RJAJ97eGuZ8wssy66PcvtGWGIscS4tRi6dg0KLQ==
   dependencies:
-    "@ai-sdk/gateway" "4.0.44"
-    "@ai-sdk/provider" "4.0.6"
-    "@ai-sdk/provider-utils" "5.0.23"
+    "@ai-sdk/gateway" "4.0.61"
+    "@ai-sdk/provider" "4.0.7"
+    "@ai-sdk/provider-utils" "5.0.28"
 
 ajv@^6.12.4:
   version "6.12.6"
@@ -5304,10 +5304,10 @@ hast-util-whitespace@^3.0.0:
   dependencies:
     "@types/hast" "^3.0.0"
 
-highlight.js@^11.11.1:
-  version "11.11.1"
-  resolved "https://registry.npmmirror.com/highlight.js/-/highlight.js-11.11.1.tgz#fca06fa0e5aeecf6c4d437239135fabc15213585"
-  integrity sha512-Xwwo44whKBVCYoliBQwaPvtd/2tYFkRQtXDWj1nackaV2JPXx3L0+Jvd8/qCJ2p+ML0/XVkJ2q+Mr+UVdpJK5w==
+highlight.js@^11.12.0:
+  version "11.12.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.12.0.tgz#470d918fd556a76debc40fe5e4b540b6b9cb9890"
+  integrity sha512-nbfWpyRMcMrPMmDwJB+dhX/eiaPKtc2RB+0QZskqJ3WjRA/FDS0e9hZrx8EC/lbEv8gXy98FcDbNa/dspAaJMg==
 
 hookable@^5.5.3:
   version "5.5.3"
@@ -6674,10 +6674,10 @@ marked-highlight@^2.2.4:
   resolved "https://registry.yarnpkg.com/marked-highlight/-/marked-highlight-2.2.4.tgz#e8d9a3b9ab8cdba8c255a5bcca9d922716befa5e"
   integrity sha512-PZxisNMJDduSjc0q6uvjsnqqHCXc9s0eyzxDO9sB1eNGJnd/H1/Fu+z6g/liC1dfJdFW4SftMwMlLvsBhUPrqQ==
 
-marked@^18.0.4, marked@^18.0.9:
-  version "18.0.9"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-18.0.9.tgz#729fb57203a4fd58dd5ddc551917ef40daf5036a"
-  integrity sha512-/Sa4qiiHZxf0/FQdBBowr9q4r10krCwMvpK48FUBdXdUXScDxiQGR9zCPrFgRVR5LU3iySOiIjy09ZQvADir1w==
+marked@^18.0.10, marked@^18.0.4:
+  version "18.0.10"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-18.0.10.tgz#a09ac1f54e378b9efc8b31707adc188fdc047d2e"
+  integrity sha512-FJeH4bRpYoXiggcgriCGItKCSv3xkngJc4QCZ/rkQCogU3VYaLxYJoZl8Nw/b4+x7iij/pd+09mZ6A1dXzpL0A==
 
 marky@^1.2.0, marky@^1.2.2:
   version "1.3.0"
